@@ -47,7 +47,7 @@ function Projects() {
                 {/* Third project card */}
                 <div className="card">
                     {/* Image for the expense tracker project */}
-                    <img src="src/assets/project3.png" alt="Expense tracker" />
+                    <img src={project3} alt="Expense tracker" />
 
                     {/* Project title */}
                     <h2>Expense Tracker</h2>
