@@ -1,3 +1,8 @@
+// Imports service images so Vite includes them in the final build
+import webImage from "../assets/web.PNG";
+import appImage from "../assets/app.PNG";
+import programmingImage from "../assets/programming.PNG";
+
 // This function creates the Services page
 function Services() {
   // Displays the Services page content
@@ -13,7 +18,7 @@ function Services() {
         {/* First service card */}
         <div className="card">
           {/* Image related to web development */}
-          <img src="src/assets/web.PNG" alt="Web development" />
+          <img src={webImage} alt="Web development" />
 
           {/* Service title */}
           <h2>Web Development</h2>
@@ -27,7 +32,7 @@ function Services() {
         {/* Second service card */}
         <div className="card">
           {/* Image related to illustration */}
-          <img src="src/assets/app.PNG" alt="App development" />
+          <img src={appImage} alt="App development" />
 
           {/* Service title */}
           <h2>Illustration</h2>
@@ -41,7 +46,7 @@ function Services() {
         {/* Third service card */}
         <div className="card">
           {/* Image related to programming help */}
-          <img src="src/assets/programming.PNG" alt="Programming help" />
+          <img src={programmingImage} alt="Programming help" />
 
           {/* Service title */}
           <h2>Programming Help</h2>

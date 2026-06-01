@@ -1,6 +1,9 @@
 // Imports Routes, Route, and Link so the website can have multiple pages
 import { Routes, Route, Link } from "react-router-dom";
 
+// Imports the custom logo image so it loads correctly after deployment
+import logoImage from "./assets/logo.png";
+
 // Imports all page components used in the website routes
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -19,7 +22,7 @@ function App() {
         {/* Logo area that links back to the Home page */}
         <Link to="/" className="logo">
           {/* Displays the custom logo image */}
-          <img src="src/assets/logo.png" alt="My logo" className="logoImage" />
+          <img src={logoImage} alt="My logo" className="logoImage" />
 
           {/* Website logo text */}
           <span>My Portfolio</span>

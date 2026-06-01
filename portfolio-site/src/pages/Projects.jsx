@@ -1,3 +1,8 @@
+// Imports project images so they work correctly after deploying to Netlify
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.png";
+
 // This function creates the Projects page
 function Projects() {
     // Displays the Projects page content
@@ -12,7 +17,7 @@ function Projects() {
                 {/* First project card */}
                 <div className="card">
                     {/* Image for the portfolio project */}
-                    <img src="src/assets/project1.png" alt="Portfolio project" />
+                    <img src={project1} alt="Portfolio project" />
 
                     {/* Project title */}
                     <h2>Portfolio Website</h2>
@@ -27,7 +32,7 @@ function Projects() {
                 {/* Second project card */}
                 <div className="card">
                     {/* Image for the to-do list project */}
-                    <img src="src/assets/project2.png" alt="To do list app" />
+                    <img src={project2} alt="To do list app" />
 
                     {/* Project title */}
                     <h2>To-Do List App</h2>
