@@ -1,3 +1,5 @@
+import myProfile from "../assets/profile.jpg";
+
 // This function creates the About Me page
 function About() {
   // The return statement displays the HTML/JSX content on the page
@@ -10,7 +12,7 @@ function About() {
       {/* This box holds the profile image and the text side by side */}
       <div className="aboutBox">
         {/* Displays the imported profile image */}
-        <img src="src/assets/profile.jpg" alt="My profile" className="profileImage" />
+        <img src={myProfile} alt="My profile" className="profileImage" />
 
         {/* This div groups the name, paragraph, and resume button */}
         <div>

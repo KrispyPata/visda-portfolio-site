@@ -6,7 +6,7 @@ body {
     background-color: #ffedb6;
     background-image:
         linear-gradient(rgb(255, 238, 191), rgba(255, 237, 182, 0.858)),
-        url("src/assets/design.png");
+        url("src/assets/design.PNG");
     /*background-repeat: repeat;*/
     background-size: 1270px;
     align-items: top;
