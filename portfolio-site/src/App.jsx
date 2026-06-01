@@ -2,7 +2,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 
 // Imports the custom logo image so it loads correctly after deployment
-import logoImage from "./assets/logo.png";
+import logoImage from "./assets/logo.PNG";
 
 // Imports all page components used in the website routes
 import Home from "./pages/Home";
