@@ -1,4 +1,5 @@
 import myProfile from "../assets/profile.jpg";
+import myResume from "../assets/resume.pdf";
 
 // This function creates the About Me page
 function About() {
@@ -28,7 +29,7 @@ function About() {
           </p>
 
           {/* Opens my resume PDF in a new browser tab */}
-          <a href="src/assets/resume.pdf" target="_blank" className="button">
+          <a href={myResume} target="_blank" className="button">
             View My Resume
           </a>
         </div>
