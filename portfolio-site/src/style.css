@@ -12,7 +12,10 @@ body {
     align-items: top;
     color: #4d3417;
 }
-
+.projectLink {
+    text-decoration: none;
+    color: inherit;
+}
 .navbar {
     background-color: #562702;
     color: #ffedb6;

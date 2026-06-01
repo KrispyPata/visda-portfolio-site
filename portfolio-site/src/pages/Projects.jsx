@@ -15,10 +15,9 @@ function Projects() {
             {/* This container holds all the project cards */}
             <div className="cardContainer">
                 {/* First project card */}
-                <div className="card">
+                <a href="https://visda-kevinremlan-portfolioreact.netlify.app/" target="_blank" className="card projectLink">
                     {/* Image for the portfolio project */}
                     <img src={project1} alt="Portfolio project" />
-
                     {/* Project title */}
                     <h2>Portfolio Website</h2>
 
@@ -27,10 +26,10 @@ function Projects() {
                         I created a personal portfolio website using React. My role was to
                         design the pages, add navigation, and organize the content.
                     </p>
-                </div>
+                </a>
 
                 {/* Second project card */}
-                <div className="card">
+                <a href="https://visdatodolist.netlify.app/" target="_blank" className="card projectLink">
                     {/* Image for the to-do list project */}
                     <img src={project2} alt="To do list app" />
 
@@ -42,10 +41,10 @@ function Projects() {
                         I built a simple to-do list app using JavaScript. The project helped
                         me practice working with forms, buttons, and user input.
                     </p>
-                </div>
+                </a>
 
                 {/* Third project card */}
-                <div className="card">
+                <a href="https://expense-tracker-visda.netlify.app/" target="_blank" className="card projectLink">
                     {/* Image for the expense tracker project */}
                     <img src={project3} alt="Expense tracker" />
 
@@ -56,7 +55,7 @@ function Projects() {
                     <p>
                         I created a simple expense tracker app to help users monitor their spending.
                     </p>
-                </div>
+                </a>
             </div>
         </section>
     );
